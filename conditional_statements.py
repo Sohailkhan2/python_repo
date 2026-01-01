@@ -318,3 +318,57 @@ else:
 # youre not eligible for vote
 '''
 
+# match case
+
+# 14] match case to select the language
+'''
+select = int(input("Enter a number : "))
+
+match select:
+    case 1 :
+        print("you have selected telugu language.")
+    case 2 :
+        print("you have selected english language.")
+    case 3:
+        print("you have selected kannada language.")
+    case 4 :
+        print("you have selected hindi language.")
+    case _ :
+        print("select proper number.")
+
+# Enter a number : 3
+# you have selected kannada language.
+# Enter a number : 8
+# select proper number.
+# Enter a number : 4
+# you have selected hindi language.
+'''
+# 15] match case to select the day in a week
+'''
+select = int(input("Enter a number : "))
+
+match select:
+    case 1 :
+        print("you have selected a sunday.")
+    case 2 :
+        print("you have selected a monday.")
+    case 3:
+        print("you have selected a tuesday.")
+    case 4 :
+        print("you have selected a wednesday.")
+    case 5 :
+        print("you have selected a thursday.")
+    case 6 :
+        print("you have selected a friday.")
+    case 7 :
+        print("you have selected a saturday.")
+    case _ :
+        print("select proper number.")
+
+# Enter a number : 5
+# you have selected a thursday.
+# Enter a number : 2
+# you have selected a monday.
+# Enter a number : 8
+# select proper number
+'''
